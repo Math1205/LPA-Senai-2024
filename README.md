@@ -7,3 +7,5 @@
 ## Cronograma
 - [x] Aula 04 - Introdução ao github (07/02/2024)
   - Criação do Perfil no Github
+
+O flamengo não é o unico que faz uns arrastão top - corinthians
