@@ -1,6 +1,6 @@
 programa
 {
-	
+	inclua biblioteca Matematica --> mat
 	funcao inicio()
 	{
 		inteiro candidatoA = 0
@@ -62,10 +62,10 @@ programa
 			escreva("\n")
 
 			escreva("total de votos: ", total, "\n\n")
-			escreva("Candidato A: ", candidatoA, "voto(s). ", porcentCandA, " % do total\n")
-			escreva("Candidato B: ", candidatoB, "voto(s). ", porcentCandB, " % do total\n")
-			escreva("Brancos: ", brancos, "voto(s). ", porcentBrancos, " % do total\n")
-			escreva("Nulos: ", nulos, "voto(s). ", porcentNulos, " % do total\n")
+			escreva("Candidato A: ", candidatoA, "voto(s). ", mat.arredondar(porcentCandA, 2), " % do total\n")
+			escreva("Candidato B: ", candidatoB, "voto(s). ", mat.arredondar(porcentCandB, 2), " % do total\n")
+			escreva("Brancos: ", brancos, "voto(s). ", mat.arredondar(porcentBrancos, 2), " % do total\n")
+			escreva("Nulos: ", nulos, "voto(s). ", mat.arredondar(porcentNulos, 2), " % do total\n")
 		}
 	}
 	
@@ -75,7 +75,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 9; 
+ * @POSICAO-CURSOR = 581; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
